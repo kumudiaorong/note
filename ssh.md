@@ -10,3 +10,13 @@ chown -R ~/.ssh $USER
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
 ```
+
+# Terminate after displaying the following content
+
+```sh
+debug1: SSH2_MSG_KEXINIT sent
+```
+
+## solution
+
+reinstall openssh

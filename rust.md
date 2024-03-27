@@ -10,3 +10,6 @@ error[E0507]: cannot move out of `receiver`, a captured variable in an `Fn` clos
     |                  |
     |                  captured by this `Fn` closure
 ```
+
+## tauri change binary name
+change `tauri.config.json`."package"."productName":"qst-f",
